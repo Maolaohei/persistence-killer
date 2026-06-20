@@ -44,20 +44,20 @@
 **交互模式（推荐）**：边排查边提示，手动确认是否清理异常项。
 ```bash
 python persistence_killer.py
-
+```
 
 
 
 **仅扫描模式（不修改系统）**：只排查风险并生成报告，不执行任何删除操作。
 ```bash
 python persistence_killer.py --auto
-
+```
 
 
 **强制生成报告**：
 ```bash
 python persistence_killer.py --report
-
+```
 
 ## 📊 报告与日志
 
